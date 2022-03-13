@@ -1,0 +1,9 @@
+name: NFTLands
+version: ${project.version}
+main: com.gmail.iamcryptoboi.nftlands.NFTLands
+api-version: 1.17
+depend: [WRLDPaymentsAPI, WorldGuard]
+
+commands:
+  claim:
+    description: claim land at location
